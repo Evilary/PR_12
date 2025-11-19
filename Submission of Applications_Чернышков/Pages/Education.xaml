@@ -35,7 +35,7 @@
             <Label Content="(Формат документов должен быть PNG, JPEG или PDF, а максимальный размер каждого файла 5 МБ)" HorizontalAlignment="Left" Margin="20,300,0,0" VerticalAlignment="Top" Background="{x:Null}" FontSize="10" Foreground="Red"/>
             <TextBox Height="24" Margin="12,337,81,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
             <Button Content="Выбрать..." HorizontalAlignment="Right" Margin="0,0,3,78" VerticalAlignment="Bottom" Width="73" Height="25"/>
-            <Button Content="Продолжить" HorizontalAlignment="Right" Margin="0,0,3,40" VerticalAlignment="Bottom" Width="176" Height="25"/>
+            <Button Content="В" HorizontalAlignment="Right" Margin="0,0,3,40" VerticalAlignment="Bottom" Width="176" Height="25"/>
 
 
 
