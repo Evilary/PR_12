@@ -28,9 +28,9 @@
             <CheckBox Content="не имею" HorizontalAlignment="Left" Margin="22,220,0,0" VerticalAlignment="Top"/>
             <Label Content="Прикрепите сканы 1-ой и 2-ой страниц приписного удостоверения или военного билета (стр. 1-5, 8-13, 20-21) при их наличии" HorizontalAlignment="Left" Margin="10,240,0,0" VerticalAlignment="Top"/>
             <Label Content="(Формат документов должен быть PNG, JPEG или PDF, а максимальный размер каждого файла 5 МБ)" HorizontalAlignment="Left" Margin="20,271,0,0" VerticalAlignment="Top" Background="{x:Null}" FontSize="10" Foreground="Red"/>
-            <TextBox Height="24" Margin="22,299,83,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
-            <Button Content="Выбрать..." HorizontalAlignment="Right" Margin="0,0,5,67" VerticalAlignment="Bottom" Width="73" Height="24"/>
-            <Button Content="Продолжить!" HorizontalAlignment="Right" Margin="0,0,5,16" VerticalAlignment="Bottom" Width="176" Height="25"/>
+            <TextBox Height="24" Margin="22,299,109,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+            <Button Content="Выбрать..." HorizontalAlignment="Right" Margin="0,0,10,127" VerticalAlignment="Bottom" Width="73" Height="24"/>
+            <Button Content="Продолжить!" HorizontalAlignment="Right" Margin="0,0,10,80" VerticalAlignment="Bottom" Width="176" Height="25"/>
 
 
 
