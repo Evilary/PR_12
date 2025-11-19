@@ -61,6 +61,9 @@
     <Compile Include="Pages\Education.xaml.cs">
       <DependentUpon>Education.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\Parents.xaml.cs">
+      <DependentUpon>Parents.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Passport.xaml.cs">
       <DependentUpon>Passport.xaml</DependentUpon>
     </Compile>
@@ -96,6 +99,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Pages\Parents.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\Passport.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
