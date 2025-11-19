@@ -16,7 +16,7 @@
         </Grid>
         <Grid Margin="0,60,0,0.4">
             <Label Content="Заявление" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-            <Label Content="[Deep] принять меня в ПАТе? Пермский авиационный техникум им. А.Д. Швецова" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top"/>
+            <Label Content="Прошу принять меня в КГАПОУ? Пермский авиационный техникум им. А.Д. Швецова" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top"/>
             <Label Content="Выберите один из вариантов:" HorizontalAlignment="Left" Margin="20,67,0,0" VerticalAlignment="Top" Background="{x:Null}" FontSize="10" Foreground="Red"/>
             <CheckBox Content="по очной форме обучения" HorizontalAlignment="Left" Margin="22,91,0,0" VerticalAlignment="Top"/>
             <CheckBox Content="по заочной форме обучения (обучение только на платной основе)" HorizontalAlignment="Left" Margin="22,106,0,0" VerticalAlignment="Top"/>
