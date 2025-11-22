@@ -9,42 +9,40 @@
       Title="Education">
 
     <Grid Background="#F8F9FA">
-        <Grid Margin="0,0,0,349.0" Background="White">
+        <Grid VerticalAlignment="Top" Background="White" Height="60">
             <Image HorizontalAlignment="Left" Height="40" Margin="10,10,0,0" VerticalAlignment="Top" Width="40" Source="/Images/logo.png"/>
             <Label Content="Электронная приемная компания" HorizontalAlignment="Left" Margin="55,1,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="19"/>
             <Label Content="Пермского авиационного техникума им. А. Д. Швецова" HorizontalAlignment="Left" Margin="55,24,0,0" VerticalAlignment="Top"/>
         </Grid>
 
-        <Grid Margin="0,60,0,0.4">
+        <ScrollViewer
+            VerticalAlignment="Top"
+            Margin="0,60,0,0.4">
+            <Grid Height="395">
 
-            <Label Content="Сведения об образовании" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-            <Label Content="База:" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top"/>
-            <Label Content="Выберите один из вариантов:" HorizontalAlignment="Left" Margin="20,67,0,0" VerticalAlignment="Top" Background="{x:Null}" FontSize="10" Foreground="Red"/>
-            <CheckBox Content="9 классов" HorizontalAlignment="Left" Margin="22,91,0,0" VerticalAlignment="Top"/>
-            <CheckBox Content="11 классов" HorizontalAlignment="Left" Margin="22,106,0,0" VerticalAlignment="Top"/>
-            <CheckBox Content="СПО" HorizontalAlignment="Left" Margin="22,121,0,0" VerticalAlignment="Top"/>
-            <CheckBox Content="ВПО" HorizontalAlignment="Left" Margin="22,136,0,0" VerticalAlignment="Top"/>
-            <Label Content="Выберите один из вариантов:" HorizontalAlignment="Left" Margin="20,150,0,0" VerticalAlignment="Top" Background="{x:Null}" FontSize="10" Foreground="Red"/>
-            <CheckBox Content="Аттестат" HorizontalAlignment="Left" Margin="22,174,0,0" VerticalAlignment="Top"/>
-            <CheckBox Content="Диплом" HorizontalAlignment="Left" Margin="22,189,0,0" VerticalAlignment="Top"/>
-            <Label Content="Серия и номер документа об образовании::" HorizontalAlignment="Left" Margin="10,210,0,0" VerticalAlignment="Top"/>
-            <TextBox Height="24" Margin="12,237,410,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
-            <Label Content="Средний балл (до сотых):" HorizontalAlignment="Left" Margin="410,210,0,0" VerticalAlignment="Top"/>
-            <TextBox Height="24" Margin="410,237,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
-            <Label Content="Прикрепите сканы страниц документа об образовании с Ф.И.О., наименованием образовательной организации и оценками" HorizontalAlignment="Left" Margin="10,269,0,0" VerticalAlignment="Top"/>
-            <Label Content="(Формат документов должен быть PNG, JPEG или PDF, а максимальный размер каждого файла 5 МБ)" HorizontalAlignment="Left" Margin="20,300,0,0" VerticalAlignment="Top" Background="{x:Null}" FontSize="10" Foreground="Red"/>
-            <TextBox Height="24" Margin="12,337,81,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
-            <Button Content="Выбрать..." HorizontalAlignment="Right" Margin="0,0,3,78" VerticalAlignment="Bottom" Width="73" Height="25"/>
-            <Button Content="В" HorizontalAlignment="Right" Margin="0,0,3,40" VerticalAlignment="Bottom" Width="176" Height="25"/>
+                <Label Content="Сведения об образовании" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+                <Label Content="База:" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top"/>
+                <Label Content="Выберите один из вариантов:" HorizontalAlignment="Left" Margin="20,67,0,0" VerticalAlignment="Top" Background="{x:Null}" FontSize="10" Foreground="Red"/>
+                <CheckBox Content="9 классов" HorizontalAlignment="Left" Margin="22,91,0,0" VerticalAlignment="Top"/>
+                <CheckBox Content="11 классов" HorizontalAlignment="Left" Margin="22,106,0,0" VerticalAlignment="Top"/>
+                <CheckBox Content="СПО" HorizontalAlignment="Left" Margin="22,121,0,0" VerticalAlignment="Top"/>
+                <CheckBox Content="ВПО" HorizontalAlignment="Left" Margin="22,136,0,0" VerticalAlignment="Top"/>
+                <Label Content="Выберите один из вариантов:" HorizontalAlignment="Left" Margin="20,150,0,0" VerticalAlignment="Top" Background="{x:Null}" FontSize="10" Foreground="Red"/>
+                <CheckBox Content="Аттестат" HorizontalAlignment="Left" Margin="22,174,0,0" VerticalAlignment="Top"/>
+                <CheckBox Content="Диплом" HorizontalAlignment="Left" Margin="22,189,0,0" VerticalAlignment="Top"/>
+                <Label Content="Серия и номер документа об образовании::" HorizontalAlignment="Left" Margin="10,210,0,0" VerticalAlignment="Top"/>
+                <TextBox Height="24" Margin="12,237,410,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+                <Label Content="Средний балл (до сотых):" HorizontalAlignment="Left" Margin="410,210,0,0" VerticalAlignment="Top"/>
+                <TextBox Height="24" Margin="410,237,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+                <Label Content="Прикрепите сканы страниц документа об образовании с Ф.И.О., наименованием образовательной организации и оценками" HorizontalAlignment="Left" Margin="10,269,0,0" VerticalAlignment="Top"/>
+                <Label Content="(Формат документов должен быть PNG, JPEG или PDF, а максимальный размер каждого файла 5 МБ)" HorizontalAlignment="Left" Margin="20,300,0,0" VerticalAlignment="Top" Background="{x:Null}" FontSize="10" Foreground="Red"/>
+                <TextBox Height="24" Margin="12,337,81,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+                <Button Content="Выбрать..." HorizontalAlignment="Right" Margin="0,0,3,34" VerticalAlignment="Bottom" Width="73" Height="25"/>
+                <Button Content="Продолжить!!" HorizontalAlignment="Right" Margin="0,0,11,4" VerticalAlignment="Bottom" Width="176" Height="25" Click="ContinueButton_Click"  />
+            </Grid>
+
+        </ScrollViewer>
 
 
-
-
-
-
-
-
-
-        </Grid>
     </Grid>
 </Page>

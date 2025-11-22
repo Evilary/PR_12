@@ -9,13 +9,16 @@
       Title="Speciality">
 
     <Grid Background="#F8F9FA">
-        <Grid Background="White" Margin="0,0,0,540">
+        <Grid VerticalAlignment="Top" Background="White" Height="60">
             <Image HorizontalAlignment="Left" Height="40" Margin="10,10,0,0" VerticalAlignment="Top" Width="40" Source="/Images/logo.png"/>
             <Label Content="Электронная приемная компания" HorizontalAlignment="Left" Margin="55,1,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="19"/>
             <Label Content="Пермского авиационного техникума им. А. Д. Швецова" HorizontalAlignment="Left" Margin="55,24,0,0" VerticalAlignment="Top"/>
         </Grid>
 
-        <Grid Margin="0,60,0,0.4">
+        <ScrollViewer
+            VerticalAlignment="Top"
+            Margin="0,60,0,0.4">
+            <Grid Height="539">
             <Label Content="Специальность" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
             <Label Content="Выберите специальность, на которой желаете учиться:" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top"/>
             <Label Content="Можете выбрать несколько специальностей:" HorizontalAlignment="Left" Margin="20,67,0,0" VerticalAlignment="Top" Background="{x:Null}" FontSize="10" Foreground="Red"/>
@@ -41,9 +44,13 @@
                 <TextBlock TextWrapping="Wrap" Text="С лицензией на право осуществления образовательной деятельности, свидетельством о государственной аккредитации, правилами приёма и правилами внутреннего распорядка обучающихся в данном образовательном учреждении, с Уставом Техникума ознакомлен(а)."/>
             </CheckBox>
             <CheckBox Content="С датой представления оригиналов документов ознакомлен(а)" HorizontalAlignment="Left" Margin="22,467,0,0" VerticalAlignment="Top"/>
-            <Button Content="Продолжить" HorizontalAlignment="Right" Margin="0,0,45,40" VerticalAlignment="Bottom" Width="150" Height="25"/>
+            <Button Content="Продолжить" HorizontalAlignment="Right" Margin="0,0,45,40" VerticalAlignment="Bottom" Width="150" Height="25" Click="ContinueButton_Click" />
 
 
         </Grid>
+            
+        </ScrollViewer>
+
+        
     </Grid>
 </Page>

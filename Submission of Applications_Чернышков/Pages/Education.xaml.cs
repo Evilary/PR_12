@@ -24,5 +24,9 @@ namespace Submission_of_Applications_Чернышков
         {
             InitializeComponent();
         }
+        private void ContinueButton_Click(object sender, RoutedEventArgs e)
+        {
+            ((MainWindow)Window.GetWindow(this)).OpenSpeciality();
+        }
     }
 }

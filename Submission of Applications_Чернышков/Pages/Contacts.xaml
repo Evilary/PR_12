@@ -9,12 +9,17 @@
       Title="Contacts">
 
     <Grid Background="#F8F9FA">
-        <Grid Background="White" Margin="0,0,0,390">
+        <Grid VerticalAlignment="Top" Background="White" Height="60">
             <Image HorizontalAlignment="Left" Height="40" Margin="10,10,0,0" VerticalAlignment="Top" Width="40" Source="/Images/logo.png"/>
             <Label Content="Электронная приемная компания" HorizontalAlignment="Left" Margin="55,1,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="19"/>
             <Label Content="Пермского авиационного техникума им. А. Д. Швецова" HorizontalAlignment="Left" Margin="55,24,0,0" VerticalAlignment="Top"/>
         </Grid>
-        <Grid Margin="0,60,0,0.4">
+        <ScrollViewer
+            VerticalAlignment="Top"
+            Margin="0,60,0,0" Height="380">
+
+        </ScrollViewer>
+        <Grid Margin="0,65,0,10">
             <Label Content="Контакты" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
             <Label Content="Домашний номер:" HorizontalAlignment="Left" Margin="10,50,0,0" VerticalAlignment="Top" Width="174"/>
             <TextBox Height="24" Margin="10,81,405,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
@@ -22,7 +27,7 @@
             <TextBox Height="24" Margin="400,81,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
             <Label Content="Электронный адрес:" HorizontalAlignment="Left" Margin="10,140,0,0" VerticalAlignment="Top" Width="174"/>
             <TextBox Height="24" Margin="10,171,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
-            <Button Content="Продолжить!" HorizontalAlignment="Right" Margin="0,0,10,10" VerticalAlignment="Bottom" Width="176" Height="25"/>
+            <Button Content="Продолжить!" HorizontalAlignment="Right" Margin="0,0,10,10" VerticalAlignment="Bottom" Width="176" Height="25" Click="ContinueButton_Click" />
         </Grid>
     </Grid>
 </Page>
