@@ -9,7 +9,7 @@
       Title="Speciality">
 
     <Grid Background="#F8F9FA">
-        <Grid Margin="0,0,0,840" Background="White">
+        <Grid Background="White" Margin="0,0,0,540">
             <Image HorizontalAlignment="Left" Height="40" Margin="10,10,0,0" VerticalAlignment="Top" Width="40" Source="/Images/logo.png"/>
             <Label Content="Электронная приемная компания" HorizontalAlignment="Left" Margin="55,1,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="19"/>
             <Label Content="Пермского авиационного техникума им. А. Д. Швецова" HorizontalAlignment="Left" Margin="55,24,0,0" VerticalAlignment="Top"/>
